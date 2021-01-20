@@ -23,3 +23,9 @@ const isElementPresent = (array, element) => {
 console.log(isElementPresent(students, 'Greg'));
 console.log(isElementPresent(students, 'Sean'));
 console.log(isElementPresent(students, 'Matthew'));
+
+
+// ****** FOR LOOPS
+// for (setup; condition; increment) {
+//   console.log('Do something...') 
+// } 
