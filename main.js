@@ -20,12 +20,27 @@ const isElementPresent = (array, element) => {
   return array.includes(element)
 }
 
-console.log(isElementPresent(students, 'Greg'));
-console.log(isElementPresent(students, 'Sean'));
-console.log(isElementPresent(students, 'Matthew'));
+// console.log(isElementPresent(students, 'Greg'));
+// console.log(isElementPresent(students, 'Sean'));
+// console.log(isElementPresent(students, 'Matthew'));
 
 
 // ****** FOR LOOPS
 // for (setup; condition; increment) {
 //   console.log('Do something...') 
 // } 
+
+// const functionForMe = () => {
+//   for (let i = 0; i <= 15; i++) {
+//     console.log(i);
+//   }
+// }
+
+// functionForMe();
+
+// ****** ARRAYS WITH LOOPS
+const ec14Instructors = ['Aja', 'Trinity', 'Dr. T', 'Discussion Tickets'];
+
+for (let i = 0; i < ec14Instructors.length; i++) {
+  console.log(ec14Instructors[i]);
+}
