@@ -26,15 +26,15 @@ const isElementPresent = (array, element) => {
 
 
 // ****** FOR LOOPS
-// for (setup; condition; increment) {
-//   console.log('Do something...') 
-// } 
+for (setup; condition; increment) {
+  console.log('Do something...') 
+} 
 
-// const functionForMe = () => {
-//   for (let i = 0; i <= 15; i++) {
-//     console.log(i);
-//   }
-// }
+const functionForMe = () => {
+  for (let i = 0; i <= 15; i++) {
+    console.log(i);
+  }
+}
 
 // functionForMe();
 
@@ -57,6 +57,24 @@ const colorLoop = () => {
   }
 
   console.log(domString);
+};
+
+// colorLoop();
+
+const instructor = [
+  { first: 'Trinity', last: 'Christiana' },
+  { first: 'Aja', last: 'Washington' },
+  { first: 'Teresa', last: 'Vasquez' }
+];
+
+const nameLoop = () => {
+  let domString = '';
+
+  for (let i = 0; i < instructor.length; i++) {
+    domString += `<h1>${instructor[i].first} ${instructor[i].last}</h1>`;
+  }
+
+  console.log(domString);
 }
 
-colorLoop();
+nameLoop();
