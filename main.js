@@ -39,8 +39,24 @@ const isElementPresent = (array, element) => {
 // functionForMe();
 
 // ****** ARRAYS WITH LOOPS
-const ec14Instructors = ['Aja', 'Trinity', 'Dr. T', 'Discussion Tickets'];
+// const ec14Instructors = ['Aja', 'Trinity', 'Dr. T', 'Discussion Tickets'];
 
-for (let i = 0; i < ec14Instructors.length; i++) {
-  console.log(ec14Instructors[i]);
+// for (let i = 0; i < ec14Instructors.length; i++) {
+//   console.log(ec14Instructors[i]);
+// }
+
+// ****** ARRAYS, LOOPS, FUNCTIONS
+
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+
+const colorLoop = () => {
+  let domString = '';
+
+  for (let i = 0; i < colors.length; i++) {
+    domString += `<h1>${colors[i]}</h1>`
+  }
+
+  console.log(domString);
 }
+
+colorLoop();
