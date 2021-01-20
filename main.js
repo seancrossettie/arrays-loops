@@ -15,8 +15,9 @@ const valuePrinter = (array, index) => {
 console.log(valuePrinter(students, 2));
 
 
-const isGregHere = (array, element) => {
+// Write a function using the .includes() method to test whether a specific element is present in an array
+const isElementPresent = (array, element) => {
   return array.includes(element)
 }
 
-console.log(isGregHere(students, 'Greg'));
+console.log(isElementPresent(students, 'Greg'));
